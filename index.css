@@ -1,0 +1,193 @@
+.Influencer-platform {
+    display: flex;
+    align-items: center;
+    height: 98vh;
+    justify-content: center;
+}
+
+body {
+    margin: 1vh;
+}
+
+.IP-firstpage-first-section {
+    height: 96%;
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.IP-firstpage-second-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 98%;
+    width: 89%;
+    margin-right: 6px;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Influencer-Platform-text {
+    color: white;
+    font-family: montserrat;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Platform-text {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.Influencer-Platform-description-text {
+    font-family: montserrat;
+    font-size: 24px;
+    color: white;
+    width: 65%;
+}
+
+.register-text {
+    font-family: montserrat;
+    font-size: 30px;
+    color: #0067a0;
+    text-shadow: 2px 2px 2px #D0D0D0;
+}
+
+.button {
+    font-family: montserrat;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(#68beed, #0067a0);
+    padding: 5px;
+    width: 150px;
+}
+
+.index-page-button {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.reigistration-page-link a {
+    color: #000000;
+    font-weight: 300;
+    font-family: montserrat;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+    .IP-firstpage-first-section {
+        width: 50%;
+    }
+    .Influencer-Platform-text {
+        font-size: 35px;
+    }
+    .Influencer-Platform-description-text {
+        width: 80%;
+        font-size: 18px;
+    }
+    .index-page-button {
+        width: 350px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    .button {
+        width: 116px;
+        font-size: 12px;
+    }
+    .IP-firstpage-second-section {
+        width: 50%;
+    }
+    .reigistration-page-link a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Influencer-Platform-text {
+        font-size: 30px;
+    }
+    .Influencer-Platform-description-text {
+        font-size: 16px;
+    }
+    .register-text {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .Influencer-Platform-text {
+        font-size: 25px;
+    }
+    .register-text {
+        font-size: 22px;
+    }
+    .index-page-button {
+        width: 285px;
+    }
+    .Influencer-Platform-description-text {
+        margin: 7px;
+        font-size: 14px;
+    }
+    .button {
+        font-size: 10px;
+    }
+    .reigistration-page-link a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .IP-firstpage-second-section {
+        width: 100%;
+        margin-right: unset;
+    }
+    .Influencer-platform {
+        flex-direction: column;
+    }
+    .Influencer-Platform-text {
+        font-size: 23px;
+    }
+    .Influencer-Platform-description-text {
+        font-size: 16px;
+        width: 80%;
+    }
+    .index-page-button {
+        width: 325px;
+    }
+    .button {
+        width: 140px;
+        font-size: 12px;
+    }
+    .reigistration-page-link a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .Influencer-Platform-text {
+        font-size: 17px;
+    }
+    .Influencer-Platform-description-text {
+        font-size: 12px;
+    }
+    .register-text {
+        font-size: 14px;
+    }
+    .reigistration-page-link a {
+        font-size: 10px;
+    }
+    .button {
+        font-size: 10px;
+    }
+}
